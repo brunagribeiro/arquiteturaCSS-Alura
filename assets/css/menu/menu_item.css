@@ -1,0 +1,7 @@
+.menu_item{
+    list-style: none;
+}
+/*retirando a margem do ultimo item da lista*/
+.menu_item:last-child .menu_link{
+    margin-right: 0;
+}
